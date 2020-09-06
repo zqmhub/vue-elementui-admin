@@ -56,6 +56,52 @@
         <el-menu-item index="/Rate">Rate 评分</el-menu-item>
         <el-menu-item index="/Form">Form 表单</el-menu-item>
       </el-submenu>
+      <el-submenu index="4-3">
+        <template slot="title">
+          <i class="el-icon-eleme"></i>
+          <span>数据展示</span>
+        </template>
+        <el-menu-item index="/Table">Table 表格</el-menu-item>
+        <el-menu-item index="/Progress">Progress 进度条</el-menu-item>
+        <el-menu-item index="/Tree">Tree 树形控件</el-menu-item>
+        <el-menu-item index="/Pagination">Pagination 分页</el-menu-item>
+        <el-menu-item index="/Badge">Badge 标记</el-menu-item>
+      </el-submenu>
+
+      <el-submenu index="4-4">
+        <template slot="title">
+          <i class="el-icon-eleme"></i>
+          <span>弹框</span>
+        </template>
+        <el-menu-item index="/Alert">Alert 警告</el-menu-item>
+        <el-menu-item index="/Message">Message 消息提示</el-menu-item>
+        <el-menu-item index="/MessageBox">MessageBox 弹框</el-menu-item>
+        <el-menu-item index="/Notification">Notification 通知</el-menu-item>
+      </el-submenu>
+      <el-submenu index="4-5">
+        <template slot="title">
+          <i class="el-icon-eleme"></i>
+          <span>导航</span>
+        </template>
+        <el-menu-item index="/NavMenu">NavMenu 导航菜单</el-menu-item>
+        <el-menu-item index="/Tabs">Tabs 标签页</el-menu-item>
+        <el-menu-item index="/Dropdown">Dropdown 下拉菜单</el-menu-item>
+        <el-menu-item index="/Steps">Steps 步骤条</el-menu-item>
+      </el-submenu>
+      <el-submenu index="4-6">
+        <template slot="title">
+          <i class="el-icon-eleme"></i>
+          <span>其他</span>
+        </template>
+        <el-menu-item index="/Dialog">Dialog 对话框</el-menu-item>
+        <el-menu-item index="/Tooltip">Tooltip 文字提示</el-menu-item>
+        <el-menu-item index="/Popover">Popover 弹出框</el-menu-item>
+        <el-menu-item index="/Card">Card 卡片</el-menu-item>
+        <el-menu-item index="/Carousel">Carousel 走马灯</el-menu-item>
+        <el-menu-item index="/Timeline">Timeline 时间线</el-menu-item>
+        <el-menu-item index="/Calendar">Calendar 日历</el-menu-item>
+        <el-menu-item index="/Drawer">Drawer 抽屉</el-menu-item>
+      </el-submenu>
       <!-- <el-menu-item index="/password">修改密码 (空)</el-menu-item> -->
     </el-submenu>
     <el-menu-item index="/echarts">

@@ -134,6 +134,116 @@ const router = new Router({
           component: () => import("./views/form/Form"),
         },
 
+        // 数据
+        {
+          path: '/Table',
+          name: 'Table',
+          component: () => import("./views/data/Table"),
+        },
+        {
+          path: '/Progress',
+          name: 'Progress',
+          component: () => import("./views/data/Progress"),
+        },
+        {
+          path: '/Tree',
+          name: 'Tree',
+          component: () => import("./views/data/Tree"),
+        },
+        {
+          path: '/Pagination',
+          name: 'Pagination',
+          component: () => import("./views/data/Pagination"),
+        },
+        {
+          path: '/Badge',
+          name: 'Badge',
+          component: () => import("./views/data/Badge"),
+        },
+
+        // 弹框类
+        {
+          path: '/Alert',
+          name: 'Alert',
+          component: () => import("./views/notice/Alert"),
+        },
+        {
+          path: '/Message',
+          name: 'Message',
+          component: () => import("./views/notice/Message"),
+        },
+        {
+          path: '/MessageBox',
+          name: 'MessageBox',
+          component: () => import("./views/notice/MessageBox"),
+        },
+        {
+          path: '/Notification',
+          name: 'Notification',
+          component: () => import("./views/notice/Notification"),
+        },
+        // 导航
+        {
+          path: '/NavMenu',
+          name: 'NavMenu',
+          component: () => import("./views/navigation/NavMenu"),
+        },
+        {
+          path: '/Tabs',
+          name: 'Tabs',
+          component: () => import("./views/navigation/Tabs"),
+        },
+        {
+          path: '/Dropdown',
+          name: 'Dropdown',
+          component: () => import("./views/navigation/Dropdown"),
+        },
+        {
+          path: '/Steps',
+          name: 'Steps',
+          component: () => import("./views/navigation/Steps"),
+        },
+        {
+          path: '/Dialog',
+          name: 'Dialog',
+          component: () => import("./views/other/Dialog"),
+        },
+        {
+          path: '/Tooltip',
+          name: 'Tooltip',
+          component: () => import("./views/other/Tooltip"),
+        },
+        {
+          path: '/Popover',
+          name: 'Popover',
+          component: () => import("./views/other/Popover"),
+        },
+        {
+          path: '/Card',
+          name: 'Card',
+          component: () => import("./views/other/Card"),
+        },
+        {
+          path: '/Carousel',
+          name: 'Carousel',
+          component: () => import("./views/other/Carousel"),
+        },
+        {
+          path: '/Timeline',
+          name: 'Timeline',
+          component: () => import("./views/other/Timeline"),
+        },
+        {
+          path: '/Calendar',
+          name: 'Calendar',
+          component: () => import("./views/other/Calendar"),
+        },
+        {
+          path: '/Drawer',
+          name: 'Drawer',
+          component: () => import("./views/other/Drawer"),
+        },
+
         {
           path: '/404',
           component: NotFound
