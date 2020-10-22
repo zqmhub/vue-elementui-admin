@@ -66,7 +66,7 @@ export default {
                 this.loading = false
                 sessionStorage.setItem('user', JSON.stringify(this.loginForm))
                 this.$router.replace({ path: '/console' })
-              }, 2000)
+              }, 300)
             } else {
               this.loading = false
               this.showMsg = true

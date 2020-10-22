@@ -104,6 +104,20 @@
       </el-submenu>
       <!-- <el-menu-item index="/password">修改密码 (空)</el-menu-item> -->
     </el-submenu>
+    <el-submenu index="5-1">
+      <template slot="title">
+        <i class="el-icon-eleme"></i>
+        <span>常用方法</span>
+      </template>
+      <el-menu-item index="/Highlight">搜索高亮</el-menu-item>
+      <el-menu-item index="/TableInput">表格嵌套表单</el-menu-item>
+      <el-menu-item index="/DiyDashBoard">自定义仪表盘</el-menu-item>
+      <el-menu-item index="/CloseTip">页面关闭提示</el-menu-item>
+      <el-menu-item index="/Date">时间格式问题</el-menu-item>
+      <el-menu-item index="/Ueditor">集成百度编辑器</el-menu-item>
+    </el-submenu>
+    <!-- <el-menu-item index="/password">修改密码 (空)</el-menu-item> -->
+
     <el-menu-item index="/echarts">
       <i class="el-icon-share"></i>
       <span slot="title">图表</span>

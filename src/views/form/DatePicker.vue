@@ -3,7 +3,7 @@
     <h3>选择日</h3>
     <div class="block">
       <div class="demonstration">默认</div>
-      <el-date-picker v-model="value1" type="date" placeholder="选择日期"></el-date-picker>
+      <el-date-picker @change="changeDate" v-model="value1" type="date" placeholder="选择日期"></el-date-picker>
     </div>
     <div class="block">
       <div class="demonstration">带快捷选项</div>
@@ -120,7 +120,11 @@ export default {
       value4: "",
     };
   },
-  methods: {},
+  methods: {
+    changeDate(e){
+      console.log('切换时间',e);
+    }
+  },
 };
 </script>
 <style lang="scss" >

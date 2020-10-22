@@ -244,12 +244,45 @@ const router = new Router({
           component: () => import("./views/other/Drawer"),
         },
 
+        // 常用方法
+        {
+          path: '/Highlight',
+          name: 'Highlight',
+          component: () => import("./views/common/Highlight"),
+        },
+        {
+          path: '/TableInput',
+          name: 'TableInput',
+          component: () => import("./views/common/TableInput"),
+        },
+        {
+          path: '/DiyDashBoard',
+          name: 'DiyDashBoard',
+          component: () => import("./views/common/DiyDashBoard"),
+        },
+        {
+          path: '/CloseTip',
+          name: 'CloseTip',
+          component: () => import("./views/common/CloseTip"),
+        },
+        {
+          path: '/Date',
+          name: 'Date',
+          component: () => import("./views/common/Date"),
+        },
+        {
+          path: '/Ueditor',
+          name: 'Ueditor',
+          component: () => import("./views/common/Ueditor"),
+        },
+
         {
           path: '/404',
           component: NotFound
         }
       ]
     },
+   
     {
       path: '*',
       redirect: { path: '/404' }
